@@ -7,7 +7,7 @@ const Header = () => {
                 <span className="menu">
                     <i className="fa-solid fa-bars fa-lg"></i>
                 </span>
-                <img src="../images/logo.png" alt="logo" />
+                <img src="logo.png" alt="logo" />
             </div>
             <nav className="flex-container">
                 <span className="search">
