@@ -1,0 +1,41 @@
+header {
+    height: 56px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 3px 8px;
+
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    justify-content: space-between;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.logo-container {
+    padding: 3px;
+}   
+
+.logo-container img {
+    width: 50px;
+    height: auto;
+}
+
+.search {
+    background: #E5E5E5;
+    padding: 12px 8px;
+    border-radius: 5px;
+}
+
+.create-account {
+    color: #3B49DF;
+    background: transparent;
+    border: 1px solid #3B49DF;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px 15px;
+}
