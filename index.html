@@ -13,7 +13,8 @@
     ></script>
   </head>
   <body>
-    <header class="flex-container">
+    <div id="header-container"></div>
+    <!-- <header class="flex-container">
       <div class="logo-container flex-container">
         <span class="menu">
           <i class="fa-solid fa-bars fa-lg"></i>
@@ -27,6 +28,20 @@
         </span>
         <button class="create-account">Create account</button>
       </nav>
-    </header>
+    </header> -->
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- Load our React component. -->
+    <script src="./assets/components/Header.js"></script>
   </body>
 </html>
